@@ -1,0 +1,30 @@
+<section
+  class="relative h-screen w-screen overflow-hidden bg-black text-center"
+>
+  <div class="relative z-30 flex h-full flex-col">
+    <header class="flex flex-col">
+      <h2 class="pt-40 text-5xl font-medium text-black">Model Y</h2>
+      <p class="text-base text-black">Concertar prueba de conducción</p>
+    </header>
+
+    <footer class="flex flex-grow flex-col flex-nowrap justify-end pb-24">
+      <div>
+        <a
+          title="Prueba de conducción"
+          class="inline-block rounded border-[3px] px-12 py-2 font-medium text-white backdrop-blur-md transition-colors hover:bg-white hover:text-black"
+          href="#">Prueba de conducción</a
+        >
+      </div>
+    </footer>
+  </div>
+
+  <div class="absolute bottom-0 top-0 z-10 h-full w-full">
+    <img
+      slot="background"
+      alt="Model Y"
+      class="bg-image h-full w-full object-cover object-center"
+      src="model-y.avif"
+      id="bg-image-modely"
+    />
+  </div>
+</section>

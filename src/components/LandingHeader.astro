@@ -1,0 +1,65 @@
+---
+import Logo from "../components/Logo.astro";
+---
+
+<header
+  class="item-center fixed top-0 z-40 flex w-full justify-between px-10 py-4 text-white"
+>
+  <div class="flex flex-grow basis-0">
+    <Logo />
+  </div>
+
+  <nav>
+    <ul
+      class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2 [&>li>a]:font-medium"
+    >
+      <li><a href="#">Model S</a></li>
+      <li><a href="#">Model 3</a></li>
+      <li><a href="#">Model X</a></li>
+      <li><a href="#">Model Y</a></li>
+      <li><a href="#">Powerwall</a></li>
+      <li><a href="#">Carga</a></li>
+    </ul>
+  </nav>
+
+  <nav class="flex flex-grow basis-0 justify-end">
+    <ul
+      class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2 [&>li>a]:font-medium"
+    >
+      <li><a href="#">Soporte</a></li>
+      <li><a href="#">Tienda</a></li>
+      <li><a href="#">Cuenta</a></li>
+      <li><a href="#">Menú</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section
+  class="relative h-screen w-screen overflow-hidden bg-black text-center"
+>
+  <div class="relative z-30 flex h-full flex-col">
+    <header class="flex flex-col">
+      <h2 class="pt-40 text-5xl font-medium text-white">Disfrute de Tesla</h2>
+      <p class="text-base text-white">Programe una prueba de conducción</p>
+    </header>
+
+    <footer class="flex flex-grow flex-col flex-nowrap justify-end pb-24">
+      <div>
+        <a
+          title="Prueba de conducción"
+          class="inline-block rounded border-[3px] px-12 py-2 font-medium text-white backdrop-blur-md transition-colors hover:bg-white hover:text-black"
+          href="#">Prueba de conducción</a
+        >
+      </div>
+    </footer>
+  </div>
+
+  <div class="absolute bottom-0 top-0 z-10 h-full w-full">
+    <video
+      class="h-full object-cover object-center"
+      autoplay
+      muted
+      loop
+      src="/video-tesla.webm"></video>
+  </div>
+</section>
