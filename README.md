@@ -1,40 +1,15 @@
-# Astro Starter Kit: Basics
+# Tesla Landing ([web 🌐](https://calm-tarsier-febdb9.netlify.app/))
+Este es un proyecto de una landing page copiando la de Tesla, utilizando Astro. Incluye funcionalidades como desplazamiento suave con scroll-snap-y y scroll-snap-mandatory, así como un menú con estilos CSS. Además, se ha integrado Tailwind CSS y su plugin de ordenación de clases para una fácil gestión de estilos.
 
-```
-npm create astro@latest -- --template basics
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Estructura de Archivos
+index.astro: Página principal que utiliza los componentes mencionados anteriormente para construir la página de aterrizaje de Tesla.
+package.json: Archivo de configuración del proyecto que contiene las dependencias y scripts necesarios.
+tailwind.config.js: Archivo de configuración de Tailwind CSS.
+postcss.config.js: Archivo de configuración de PostCSS para el procesamiento de estilos.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+## Despliegue
+🚀 Este proyecto ha sido desplegado utilizando Netlify. Puedes acceder a la página de aterrizaje en el siguiente enlace: [Tesla Landing](https://calm-tarsier-febdb9.netlify.app/).
 
 ## 🧞 Commands
 
@@ -49,6 +24,4 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![image](https://github.com/Raul11jg/landing-tesla/assets/46672868/c9fe8129-2371-471d-a035-14fe47e345ef)
